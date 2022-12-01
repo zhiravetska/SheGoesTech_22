@@ -1,0 +1,43 @@
+import datetime
+my_name = input("What is your name? ")
+my_age = input(f"How old are you, {my_name} ")
+a = int(my_age)
+print(f"You will be 100 in {100 - a} years")
+
+print("Today is", datetime.datetime.now())
+print("The year is", datetime.datetime.now().year)
+my_year = datetime.datetime.now().year
+b = int(my_year)
+print(f"You will be 100 in {b + a}")
+
+
+import datetime
+my_name = input("What is your name? ")
+my_age = input(f"How old are you, {my_name} ")
+a = int(my_age)
+print(f"You will be 100 in {100 - a} years")
+
+print("Today is", datetime.datetime.now())
+print("The year is", datetime.datetime.now().year)
+my_year = datetime.datetime.now().year
+b = int(my_year)
+print(f"You will be 100 in {b + a}")
+
+salary = int(input("What is your salary?"))
+years = int(input("How many years did you work?"))
+if years > 2:
+    bonus = salary + salary*0.15*years
+    print("your bonus is ", bonus)
+else:
+    print("no bonus")
+    
+    
+a = int(input("What is your temperature?"))
+if a < 35:
+    print("a is less than 35")
+    print("not too cold")
+elif a <= 37:
+    print("all right")
+else:
+    print("a is larger than 37")
+    print("possible fever")    
