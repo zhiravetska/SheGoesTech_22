@@ -1,0 +1,5 @@
+print("Anastasia "*5)
+print("Ba"+"na"*5)
+print(60*60*24*365)
+print("googol=", 10**100)
+print(5)
